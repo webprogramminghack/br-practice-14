@@ -1,0 +1,6 @@
+.sticky-box {
+  position: sticky;
+  top: 0; /* Menempel di bagian atas saat di-scroll ke atas */
+  width: 100%;
+  background-color: lightgray;
+}

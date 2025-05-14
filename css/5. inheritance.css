@@ -1,0 +1,12 @@
+body {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  background-color: lightgray;
+}
+
+a {
+  color: inherit;
+}
