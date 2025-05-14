@@ -1,0 +1,57 @@
+/* Class Selectors */
+h1.batch-3 {
+  color: red; /* Declaration 1 */
+  background-color: black; /* Declaration 2 */
+}
+
+/* ID Selectors */
+h1#batch-2 {
+  color: aqua;
+  background-color: black;
+}
+
+/* Grouping Selectors */
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+/* Attribute Selectors */
+a[href] {
+  color: red;
+}
+
+input[type="text"] {
+  border: 4px solid red;
+}
+
+/* Descendant Selector */
+div p {
+  color: blue;
+  font-size: 40px;
+}
+
+/* Child Selector */
+/* div > p{
+    color: green;
+} */
+
+/* Universal Selector */
+* {
+  background-color: white;
+}
+
+/* Pseudo-class Selector */
+p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+/* Pseudo-element Selector */
+p::first-letter {
+  font-weight: 900;
+  color: red;
+}

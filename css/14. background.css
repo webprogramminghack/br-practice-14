@@ -1,0 +1,17 @@
+body {
+  /* background-color: red; */
+  height: 1500px;
+}
+
+div {
+  width: 2040px;
+  height: 1920px;
+  margin-top: 300px;
+
+  /* background-color: red;
+  background-image: url("../assets/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+  background-position: center center;
+  background: url("../assets/bg-image.png") no-repeat center/cover fixed;
+}
